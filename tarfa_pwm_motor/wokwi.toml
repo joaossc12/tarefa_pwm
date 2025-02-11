@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/tarfa_pwm_motor.uf2'
+elf = 'build/tarfa_pwm_motor.elf'
