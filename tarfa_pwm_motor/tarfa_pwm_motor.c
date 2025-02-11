@@ -11,7 +11,7 @@ uint8_t Angulo[3] = {180,90,0};
 uint16_t warp = 9999;
 float div = 250.0; 
 uint16_t nivel_pwm = 250; //Iniciando no valor mínimo
-uint16_t step_pwm = 3;
+uint16_t step_pwm = 3; //incremento equivale a 6us conidenrando que 10.000 equivalem a 20ms 3 equivale 6us
 float duty;
 int main() {
   stdio_init_all();

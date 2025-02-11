@@ -25,7 +25,7 @@ int main() {
     for (int i =0; i<3; i++){
       duty = (float)DTs[i]/warp;
       pwm_set_gpio_level(PIN_PWM, DTs[i]);
-      printf("Nivel do PWM: %d| Angulo: %d°| Duty cicle: %.4f\n", DTs[i], Angulo[i],duty);
+      printf("Nivel do PWM: %d|  Duty cicle: %.4f\n", DTs[i],duty);
       sleep_ms(5000);
     }
     printf("___FAZENDO INCREMETACAO GRADUAL___ \n");
